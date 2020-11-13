@@ -1,0 +1,92 @@
+*{
+    color: rgb(66, 70, 66);
+    box-sizing: border-box;
+}
+
+/* The navigation bar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: rgba(64, 55, 121, 0.576);
+    position: fixed; 
+    top: 0; 
+    width: 33cm;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.75), 0 10px 30px 0 rgba(0, 0, 0, 0.75);
+ 
+}
+  
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+  /* The flex box for selfie and intro */
+.box {
+    text-align: left;
+    flex-wrap: wrap;
+    padding:15px;
+    width: 50%;
+    height: 10cm;
+}
+  
+.box1 { background-image: url("pic1.jpg");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+}
+
+.box2 {background-color: rgba(255, 255, 240, 0);
+       font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+
+/* Titles */
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(30, 35, 36);
+}
+
+h2 {
+  text-align: left;
+  color: rgb(30, 35, 36);
+}
+
+h3 {
+    color: rgb(30, 35, 36);
+}
+
+/* The site formatting */
+body {
+    background-image: url("background.jpg");
+    background-color: rgb(4, 22, 161);
+    height: fit-content;
+    background-position: center;
+    background-size: cover;
+    font-family: "Nunito", sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* For references */
+#ref{
+    color: rgb(18, 14, 252);
+}
